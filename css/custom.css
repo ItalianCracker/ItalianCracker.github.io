@@ -4,6 +4,7 @@ body {
   padding-bottom: 20px;
 }
 
+
 #brand {
 	margin-top: -20px;
 	margin-bottpm: 30px;
@@ -34,4 +35,7 @@ body {
 
 p {
 	font-family: 'Open Sans', sans-serif;
+}
+
+html {
 }
