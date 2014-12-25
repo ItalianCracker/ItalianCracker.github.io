@@ -25,6 +25,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title>Contact us</title>
+      <link rel="STYLESHEET" type="text/css" href="contact.css" />
+      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
   </head>
 
   <body>
@@ -57,40 +64,11 @@
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <h2> Submit Your Contact Information </h1>
-<form id="contact-form" name="contact-form" method="post" action="form-processing.php">
-    <p>
-      <label>Name:<br />
-        <input name="first_name" type="text" id="FName" size="30" />
-      </label>
-    </p>
-    <p>
-      <label>Email:<br />
-        <input name="email" type="text" id="Email" size="48" />
-      </label>
-    </p>
-    <p>
-      <label>Message:<br />
-        <textarea name="message" id="Message" cols="50" rows="7"></textarea>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input name="button" type="submit" class="submit-button" id="button" value="Send" />
-      </label>
-    </p>
-  </form> 
-    </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <form action="send.php" method="post">
+  	Name: <br /><input type="text" name="name" /> <br />
+    Email: <br /><input type="email" name="email"/> <br />
+    <input type="submit" name="submit" value="Send!" />
+</di
   </body>
 </html>
